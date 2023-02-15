@@ -1,0 +1,29 @@
+.header {
+  padding: 16px 0;
+  background-color: $color-dark;
+}
+
+.header-inner {
+  width: 1276px;
+  margin: 0 auto;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.main-menu a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+}

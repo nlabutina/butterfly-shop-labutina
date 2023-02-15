@@ -1,0 +1,22 @@
+.footer {
+  padding: 31px 0;
+  background-color: $color-dark;
+}
+
+.footer-inner {
+  width: 1276px;
+  margin: 0 auto;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-phone {
+  font-size: 28px;
+  line-height: 38px;
+  color: #fff;
+  text-decoration: none;
+}
