@@ -9,20 +9,14 @@
 
 .header-wrap {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
-.main-menu ul {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 0;
-}
-
-.main-menu a {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
+.logo {
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
   color: #fff;
   text-decoration: none;
 }

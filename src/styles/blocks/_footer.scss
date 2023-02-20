@@ -9,8 +9,16 @@
 
 .footer-wrap {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer-phone {
