@@ -1,4 +1,14 @@
 .promo-inner {
-  width: 1276px;
-  margin: 0 auto;
+  @include inner;
+}
+
+.promo {
+  padding: 200px 0 214px;
+  background-image: url(/www/images/bg-promo.jpg);
+  text-align: center;
+  color: #fff;
+}
+
+.promo-text {
+  margin-bottom: 100px;
 }

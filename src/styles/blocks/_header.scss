@@ -4,8 +4,7 @@
 }
 
 .header-inner {
-  width: 1276px;
-  margin: 0 auto;
+  @include inner;
 }
 
 .header-wrap {
