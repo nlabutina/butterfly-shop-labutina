@@ -1,0 +1,22 @@
+.main-menu {
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  li {
+    margin-left: 29px;
+  }
+
+  a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}
