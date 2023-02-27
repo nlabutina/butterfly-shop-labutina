@@ -1,19 +1,20 @@
 .promo-inner {
   @include inner;
-  border: 1px solid green;
 }
 
 .promo {
   padding: 200px 0 214px;
-  background-color: red;
-  // background-image: url(/www/images/bg-promo.jpg);
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // background-size: cover;
+  background-image: url(/images/bg-promo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
-  color: #fff;
 }
 
 .promo-text {
   margin-bottom: 100px;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 98px;
+  color: #fff;
 }

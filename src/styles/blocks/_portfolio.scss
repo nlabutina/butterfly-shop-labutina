@@ -1,3 +1,52 @@
 .portfolio-inner {
   @include inner;
 }
+
+.portfolio {
+  padding: 130px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.portfolio-title {
+  margin-bottom: 97px;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+  color: $color-dark;
+}
+
+.portfolio-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 120px;
+  list-style: none;
+}
+
+.portfolio-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.portfolio-figure {
+  position: relative;
+}
+
+.portfolio-img {
+  display: block;
+  max-width: 100%;
+}
+
+.portfolio-figure-caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  line-height: 33px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
