@@ -39,7 +39,7 @@
 
 .portfolio-gallery {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   // margin-left: -10px;
   // margin-right: -10px;
   // margin-bottom: 120px;
@@ -48,6 +48,7 @@
 
 .portfolio-item {
   flex-basis: 25%;
+
 }
 
 .portfolio-figure {

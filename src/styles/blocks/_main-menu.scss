@@ -6,6 +6,10 @@
 
   li {
     margin-left: 29px;
+
+    &:first-child {
+      margin-left: 0;
+    }
   }
 
   a {
