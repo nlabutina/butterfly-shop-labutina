@@ -1,18 +1,21 @@
 .form {
   display: flex;
   align-items: flex-end;
-  margin-left: -10px;
+  margin-left: -$gap-half;
+  margin-right: -$gap-half;
 }
 
 .form-field {
-  margin-left: 10px;
-  margin-right: 10px;
+  flex-basis: 33.33%;
+  padding-left: $gap-half;
+  padding-right: $gap-half;
 }
 
 .form-input {
   display: block;
   min-width: 412px;
   padding: 35px;
+  margin-top: 8px;
   color: $color-dark;
   font-family: $font;
   font-size: 28px;
@@ -23,7 +26,8 @@
 }
 
 .form-label {
-  text-align: left;
+  font-size: 20px;
+  line-height: 27px;
 }
 
 .form-btn {

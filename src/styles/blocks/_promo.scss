@@ -1,6 +1,15 @@
+.promo {
+  background-image: url(/images/bg-promo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+
+}
+
 .promo-fade {
   padding: 200px 0 214px;
-  background-color: rgba(51, 51, 51, 0.4);
+  background-color: rgba($color-dark, 0.4);
 
   @media (max-width: $tablet-max) {
     padding: 180px 0 190px;
@@ -9,15 +18,6 @@
   @media (max-width: $mobile-max) {
     padding: 110px 0 100px;
   }
-}
-
-.promo {
-  background-image: url(/images/bg-promo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-
 }
 
 .promo-inner {

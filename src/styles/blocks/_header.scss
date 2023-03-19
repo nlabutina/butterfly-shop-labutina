@@ -4,12 +4,8 @@
   top: 0;
   z-index: 1000;
   width: 100%;
-  padding: 16px 0;
   background-color: $color-dark;
 
-  @media (max-width: $tablet-max) {
-    padding: 20px 0;
-  }
 }
 
 .header-inner {
@@ -20,3 +16,19 @@
   display: flex;
   align-items: center;
 }
+
+.burger {
+  display: none;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background-image: url(/images/burger.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  // @media (max-width: 1279px) {
+  //   display: block;
+  // }
+}
+

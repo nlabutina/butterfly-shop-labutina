@@ -3,3 +3,11 @@
   padding: 0 10px;
   margin: 0 auto;
 }
+
+@mixin title {
+  margin-bottom: 77px;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+  color: $color-dark;
+}
