@@ -6,6 +6,10 @@
   width: 100%;
   background-color: $color-dark;
 
+  @media (max-width: $mobile-max) {
+    padding: 16px 0;
+  }
+
 }
 
 .header-inner {

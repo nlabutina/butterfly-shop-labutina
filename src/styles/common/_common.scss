@@ -8,6 +8,10 @@ body {
   padding-top: 89px;
   font-family: $font;
   color: $color-dark;
+
+  @media (max-width: $mobile-max) {
+    padding-top: 69px;
+  }
 }
 
 .logo {
@@ -24,11 +28,18 @@ body {
   }
 
   @media (max-width: $mobile-max) {
-    margin-right: 0;
-    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 38px;
   }
 
   }
+
+.footer-logo {
+  @media (max-width: $mobile-max) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
 
 img {
   display: block;

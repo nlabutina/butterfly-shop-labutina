@@ -1,16 +1,47 @@
 .main-menu {
+  @media (max-width: $mobile-max) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: $color-dark;
+    border-top: 1px solid $color-accent;
+  }
+
+  &.is-open {
+    @media (max-width: $mobile-max) {
+      display: block;
+    }
+  }
+
   ul {
     display: flex;
     list-style: none;
+
+    @media (max-width: $tablet-max) {
+      justify-content: center;
+    }
+
+    @media (max-width: $mobile-max) {
+      display: block;
+    }
+
   }
 
-  // li {
-  //   margin-left: 29px;
+  li {
+    margin-left: 29px;
 
-  //   &:first-child {
-  //     margin-left: 0;
-  //   }
-  // }
+    &:first-child {
+      margin-left: 0;
+    }
+
+    @media (max-width: $mobile-max) {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
 
   a {
     display: block;
