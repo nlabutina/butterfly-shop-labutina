@@ -9,6 +9,20 @@
   flex-basis: 33.33%;
   padding-left: $gap-half;
   padding-right: $gap-half;
+
+//   @media (max-width: $tablet-max) {
+//     flex-basis: 100%;
+//   }
+
+//   @media (max-width: $mobile-max) {
+//     display: block;
+//   }
+// }
+
+// .form-field-half {
+//   @media (max-width: $tablet-max) {
+//     flex-basis: 50%;
+//   }
 }
 
 .form-input {

@@ -17,7 +17,6 @@
 
 .catalogue-title {
   @include title;
-  margin-bottom: 97px;
 
   @media (max-width: $tablet-max) {
     margin-bottom: 80px;
@@ -33,6 +32,19 @@
 
 }
 
+.catalogue-title-main {
+  margin-bottom: 97px;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 80px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 60px;
+  }
+
+}
+
 .catalogue-gallery {
   display: flex;
   margin-left: -$gap-half;
@@ -40,18 +52,32 @@
   margin-bottom: 120px;
   list-style: none;
 
-  // @media (max-width: $tablet-max) {
-  //   flex-wrap: wrap;
-  // }
+  @media (max-width: $tablet-max) {
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
 
-  // @media (max-width: $mobile-max) {
-
-  // }
+  @media (max-width: $mobile-max) {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
 }
 
 .catalogue-item {
   flex-basis: 25%;
   padding: 0 $gap-half;
+
+  @media (max-width: $tablet-max) {
+    flex-basis: 50%;
+    margin-bottom: $gap;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 0;
+  }
+
 }
 
 .catalogue-item a {
@@ -59,7 +85,7 @@
 }
 
 .catalogue-img {
-  display: block;
+  // display: block;
   max-width: 100%;
 }
 
@@ -67,10 +93,15 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  padding: 15px 0;
   width: 100%;
+  padding: 15px 0;
   font-size: 24px;
   line-height: 33px;
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
+
+  @media (max-width: $tablet-max) {
+    padding: 20px 0;
+  }
+
 }

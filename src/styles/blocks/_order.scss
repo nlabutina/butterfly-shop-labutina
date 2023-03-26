@@ -1,6 +1,14 @@
 .order {
   padding: 130px 0;
   background-color: rgba($color-dark, .1);
+
+  @media (max-width: $tablet-max) {
+    padding: 120px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 90px 0;
+  }
 }
 
 .order-inner {
@@ -11,6 +19,17 @@
   font-size: 64px;
   line-height: 87px;
   text-align: center;
+
+  @media (max-width: $tablet-max) {
+    font-size: 60px;
+    line-height: 82px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
 }
 
 .order-text {
@@ -18,4 +37,14 @@
   font-size: 28px;
   line-height: 38px;
   text-align: center;
+
+  @media (max-width: $tablet-max) {
+    margin: 40px 0 90px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin: 20px 0 60px;
+    font-size: 18px;
+    line-height: 25px;
+  }
 }

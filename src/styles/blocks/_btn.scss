@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  min-width: 497px;
+  padding: 30px;
+  color: #fff;
+  font-family: $font;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  text-decoration: none;
+  background-color: $color-accent;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+
+  @media (max-width: $mobile-max) {
+    min-width: 278px;
+    padding: $gap;
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+}

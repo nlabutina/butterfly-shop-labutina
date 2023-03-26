@@ -23,12 +23,14 @@
   height: 30px;
   border: 0;
   background-image: url(/images/burger.png);
+  background-color: rgb(255, 255, 255, 0);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
-  // @media (max-width: 1279px) {
-  //   display: block;
-  // }
+  @media (max-width: $mobile-max) {
+    display: block;
+  }
+
 }
 
