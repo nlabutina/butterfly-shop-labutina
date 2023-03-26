@@ -17,6 +17,7 @@
 
 .catalogue-title {
   @include title;
+  margin-bottom: 77px;
 
   @media (max-width: $tablet-max) {
     margin-bottom: 80px;

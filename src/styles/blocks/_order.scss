@@ -16,9 +16,7 @@
 }
 
 .order-title {
-  font-size: 64px;
-  line-height: 87px;
-  text-align: center;
+  @include title;
 
   @media (max-width: $tablet-max) {
     font-size: 60px;
