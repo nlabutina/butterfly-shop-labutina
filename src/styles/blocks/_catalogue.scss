@@ -68,7 +68,7 @@
 
 .catalogue-item {
   flex-basis: 25%;
-  padding: 0 $gap-half;
+  padding: $gap-half;
 
   @media (max-width: $tablet-max) {
     flex-basis: 50%;
@@ -83,10 +83,11 @@
 
 .catalogue-item a {
   position: relative;
+  display: block;
 }
 
 .catalogue-img {
-  // display: block;
+  display: block;
   max-width: 100%;
 }
 
@@ -105,4 +106,8 @@
     padding: 20px 0;
   }
 
+}
+
+.catalogue-full-gallery {
+  flex-wrap: wrap;
 }

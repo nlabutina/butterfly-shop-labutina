@@ -53,7 +53,8 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    &:hover {
+    &:hover,
+    &.active {
       background-color: $color-accent;
     }
   }

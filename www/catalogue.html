@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +17,7 @@
         <nav class="main-menu j-main-menu">
           <ul>
             <li>
-              <a href="catalogue.html">Каталог</a>
+              <a href="catalogue.html" class="active">Каталог</a>
             </li>
             <li>
               <a href="reviews.html">Отзывы</a>
@@ -37,136 +38,150 @@
   <main>
 
     <section class="catalogue">
+
       <div class="catalogue-inner">
-        <div class="catalogue-wrap">
 
-          <h2 class="catalogue-title">Наши работы</h2>
+        <h2 class="catalogue-title">Наши работы</h2>
 
-          <ul class="filter-list">
-            <li class="filter-item"><a href="#">Все</a></li>
-            <li class="filter-item"><a href="#">строгие</a></li>
-            <li class="filter-item"><a href="#">веселые</a></li>
-            <li class="filter-item"><a href="#">веселые</a></li>
-            <li class="filter-item"><a href="#">для животных</a></li>
-            <li class="filter-item"><a href="#">детские</a></li>
-            <li class="filter-item"><a href="#">для вхрослых</a></li>
-          </ul>
+        <ul class="filter">
+          <li class="filter-item">
+            <a href="#" class="filter-link j-catalogue-link active" data-filter="all">Все</a>
+          </li>
+          <li class="filter-item">
+            <a href="#" class="filter-link j-catalogue-link" data-filter="formal">строгие</a>
+          </li>
+          <li class="filter-item">
+            <a href="#" class="filter-link j-catalogue-link" data-filter="funny">веселые</a>
+          </li>
+          <li class="filter-item">
+            <a href="#" class="filter-link j-catalogue-link" data-filter="for-animals">для животных</a>
+          </li>
+          <li class="filter-item">
+            <a href="#" class="filter-link j-catalogue-link" data-filter="for-children">детские</a>
+          </li>
+          <li class="filter-item">
+            <a href="#" class="filter-link j-catalogue-link" data-filter="for-adults">для взрослых</a>
+          </li>
+        </ul>
 
-          <ul class="catalogue-gallery">
-            <li class="catalogue-item">
-              <a href="#">
-                <img src="images/catalogue-img1.jpg" class="catalogue-img" alt="#">
-              </a>
+        <ul class="catalogue-gallery catalogue-full-gallery">
+
+          <li class="catalogue-item j-catalogue-item" data-type="formal">
+            <a href="#">
+              <img src="images/catalogue-img1.jpg" class="catalogue-img" alt="#">
               <p>Бабочка такая</p>
-            </li>
+            </a>
+          </li>
 
-            <li class="catalogue-item">
-              <a href="#">
-                <img src="images/catalogue-img2.jpg" class="catalogue-img" alt="#">
-              </a>
+          <li class="catalogue-item j-catalogue-item" data-type="funny">
+            <a href="#">
+              <img src="images/catalogue-img2.jpg" class="catalogue-img" alt="#">
               <p>Бабочка растакая</p>
-            </li>
+            </a>
+          </li>
 
-            <li class="catalogue-item">
-              <a href="#">
-                <img src="images/catalogue-img3.jpg" class="catalogue-img" alt="#">
-              </a>
+          <li class="catalogue-item j-catalogue-item" data-type="for-adults">
+            <a href="#">
+              <img src="images/catalogue-img3.jpg" class="catalogue-img" alt="#">
               <p>Бабочка сякая</p>
-            </li>
+            </a>
+          </li>
 
-            <li class="catalogue-item">
-              <a href="#">
-                <img src="images/catalogue-img4.jpg" class="catalogue-img" alt="#">
-              </a>
+          <li class="catalogue-item j-catalogue-item" data-type="for-animals">
+            <a href="#">
+              <img src="images/catalogue-img4.jpg" class="catalogue-img" alt="#">
               <p>Кривая</p>
-            </li>
+            </a>
+          </li>
 
-            <ul class="catalogue-gallery">
-              <li class="catalogue-item">
-                <a href="#">
-                  <img src="images/catalogue-img5.jpg" class="catalogue-img" alt="#">
-                </a>
-                <p>Бабочка такая</p>
-              </li>
 
-              <li class="catalogue-item">
-                <a href="#">
-                  <img src="images/catalogue-img6.jpg" class="catalogue-img" alt="#">
-                </a>
-                <p>Бабочка растакая</p>
-              </li>
+          <li class="catalogue-item j-catalogue-item" data-type="for-adults">
+            <a href="#">
+              <img src="images/catalogue-img5.jpg" class="catalogue-img" alt="#">
+              <p>Бабочка такая</p>
+            </a>
+          </li>
 
-              <li class="catalogue-item">
-                <a href="#">
-                  <img src="images/catalogue-img7.jpg" class="catalogue-img" alt="#">
-                </a>
-                <p>Бабочка сякая</p>
-              </li>
+          <li class="catalogue-item j-catalogue-item" data-type="for-adults">
+            <a href="#">
+              <img src="images/catalogue-img6.jpg" class="catalogue-img" alt="#">
+              <p>Бабочка растакая</p>
+            </a>
+          </li>
 
-              <li class="catalogue-item">
-                <a href="#">
-                  <img src="images/catalogue-img8.jpg" class="catalogue-img" alt="#">
-                </a>
-                <p>Кривая</p>
-              </li>
+          <li class="catalogue-item j-catalogue-item" data-type="for-children">
+            <a href="#">
+              <img src="images/catalogue-img7.jpg" class="catalogue-img" alt="#">
+              <p>Бабочка сякая</p>
+            </a>
+          </li>
 
-              <ul class="catalogue-gallery">
-                <li class="catalogue-item">
-                  <a href="#">
-                    <img src="images/catalogue-img9.jpg" class="catalogue-img" alt="#">
-                  </a>
-                  <p>Бабочка такая</p>
-                </li>
+          <li class="catalogue-item j-catalogue-item" data-type="formal">
+            <a href="#">
+              <img src="images/catalogue-img8.jpg" class="catalogue-img" alt="#">
+              <p>Кривая</p>
+            </a>
+          </li>
 
-                <li class="catalogue-item">
-                  <a href="#">
-                    <img src="images/catalogue-img10.jpg" class="catalogue-img" alt="#">
-                  </a>
-                  <p>Бабочка растакая</p>
-                </li>
+          <li class="catalogue-item j-catalogue-item" data-type="formal">
+            <a href="#">
+              <img src="images/catalogue-img9.jpg" class="catalogue-img" alt="#">
+              <p>Бабочка такая</p>
+            </a>
+          </li>
 
-                <li class="catalogue-item">
-                  <a href="#">
-                    <img src="images/catalogue-img11.jpg" class="catalogue-img" alt="#">
-                  </a>
-                  <p>Бабочка сякая</p>
-                </li>
+          <li class="catalogue-item j-catalogue-item" data-type="funny">
+            <a href="#">
+              <img src="images/catalogue-img10.jpg" class="catalogue-img" alt="#">
+              <p>Бабочка растакая</p>
+            </a>
+          </li>
 
-                <li class="catalogue-item">
-                  <a href="#">
-                    <img src="images/catalogue-img12.jpg" class="catalogue-img" alt="#">
-                  </a>
-                  <p>Кривая</p>
-                </li>
+          <li class="catalogue-item j-catalogue-item" data-type="funny">
+            <a href="#">
+              <img src="images/catalogue-img11.jpg" class="catalogue-img" alt="#">
+              <p>Бабочка сякая</p>
+            </a>
+          </li>
 
-          </ul>
-        </div>
+          <li class="catalogue-item j-catalogue-item" data-type="funny">
+            <a href="#">
+              <img src="images/catalogue-img12.jpg" class="catalogue-img" alt="#">
+              <p>Кривая</p>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="#" class="btn">Больше бабочек</a>
+
       </div>
-    </div>
+
+      </div>
 
   </main>
 
   <footer class="footer">
     <div class="footer-inner">
 
-        <a href="index.html" class="logo footer-logo">Butterfly</a>
+      <a href="index.html" class="logo footer-logo">Butterfly</a>
 
-        <a href="tel:+78128008080" class="footer-phone">+7 812 800-80-80</a>
+      <a href="tel:+78128008080" class="footer-phone">+7 812 800-80-80</a>
 
-        <ul class="socials">
-          <li class="socials-item">
-            <a href="#" title="Мы в Instagram" class="socials-link"
-              style="background-image: url(images/icon-instagram.svg);" target="_blank"></a>
-          </li>
-          <li class="socials-item">
-            <a href="#" title="Мы в Facebook" class="socials-link"
-              style="background-image: url(images/icon-facebook.svg);" target="_blank"></a>
-          </li>
-          <li class="socials-item">
-            <a href="#" title="Мы в Telegram" class="socials-link"
-              style="background-image: url(images/icon-telegram.svg);" target="_blank"></a>
-          </li>
-        </ul>
+      <ul class="socials">
+        <li class="socials-item">
+          <a href="#" title="Мы в Instagram" class="socials-link"
+            style="background-image: url(images/icon-instagram.svg);" target="_blank"></a>
+        </li>
+        <li class="socials-item">
+          <a href="#" title="Мы в Facebook" class="socials-link"
+            style="background-image: url(images/icon-facebook.svg);" target="_blank"></a>
+        </li>
+        <li class="socials-item">
+          <a href="#" title="Мы в Telegram" class="socials-link"
+            style="background-image: url(images/icon-telegram.svg);" target="_blank"></a>
+        </li>
+      </ul>
 
     </div>
 

@@ -1,8 +1,17 @@
 .form {
   display: flex;
+  width: 100%;
   align-items: flex-end;
   margin-left: -$gap-half;
   margin-right: -$gap-half;
+
+  @media (max-width: $tablet-max) {
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: $mobile-max) {
+    display: block;
+  }
 }
 
 .form-field {
@@ -10,24 +19,24 @@
   padding-left: $gap-half;
   padding-right: $gap-half;
 
-//   @media (max-width: $tablet-max) {
-//     flex-basis: 100%;
-//   }
+  @media (max-width: $tablet-max) {
+    flex-basis: 100%;
+  }
 
-//   @media (max-width: $mobile-max) {
-//     display: block;
-//   }
-// }
+  @media (max-width: $mobile-max) {
+    margin-bottom: 30px;
+  }
+}
 
-// .form-field-half {
-//   @media (max-width: $tablet-max) {
-//     flex-basis: 50%;
-//   }
+.form-field-half {
+  @media (max-width: $tablet-max) {
+    flex-basis: 50%;
+  }
 }
 
 .form-input {
   display: block;
-  min-width: 412px;
+  width: 100%;
   padding: 35px;
   margin-top: 8px;
   color: $color-dark;
@@ -46,8 +55,8 @@
 
 .form-btn {
   display: inline-block;
-  min-width: 412px;
-  padding: 35px;
+  width: 100%;
+  padding: 35px 0;
   color: #fff;
   font-family: $font;
   font-size: 28px;
@@ -56,4 +65,8 @@
   border-radius: 6px;
   border: none;
   cursor: pointer;
+
+  @media (max-width: $tablet-max) {
+    margin-top: 40px;
+  }
 }

@@ -1,0 +1,32 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 40px;
+
+  @media (max-width: $mobile-max) {
+    flex-wrap: wrap;
+  }
+}
+
+.filter-item {
+  margin: 0 25px;
+
+  @media (max-width: $mobile-max) {
+    flex-basis: 33.33%;
+    margin: 0 0 $gap-half;
+  }
+}
+
+.filter-link {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: rgba($color-dark, .8);
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &.active {
+    color: $color-accent;
+  }
+}
