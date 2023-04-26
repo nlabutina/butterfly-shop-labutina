@@ -42,4 +42,16 @@ $(document).ready(function () {
     })
   })
 
+    // Табы
+    $('.j-contacts-link').on('click', function() {
+      let index = $(this).index('.j-contacts-link');
+
+      $('.j-contacts-link').removeClass('active');
+      $(this).addClass('active');
+
+      $('.j-contacts-item').removeClass('active');
+      $('.j-contacts-item').eq(index).addClass('active');
+
+    });
+
 })
