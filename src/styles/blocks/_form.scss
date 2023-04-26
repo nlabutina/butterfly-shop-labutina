@@ -2,8 +2,6 @@
   display: flex;
   width: 100%;
   align-items: flex-end;
-  // margin-left: -$gap-half;
-  // margin-right: -$gap-half;
 
   @media (max-width: $tablet-max) {
     flex-wrap: wrap;
